@@ -10,7 +10,7 @@
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 <h1 align="center">
-  <b>𝙏𝙂𝙉 𝙈𝙐𝙎𝙄𝘾</b>
+  <b>𝙐𝙉 𝙈𝙐𝙎𝙄𝘾</b>
 </h1>
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
@@ -18,7 +18,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=F00FF00&width=1080&lines=A+bot+that+can+play+music+on+Telegram+Group%E2%9D%A4%EF%B8%8F">
 </p> 
 
-![logo](https://telegra.ph/file/aa05d5a9bbc80d0cb053d.jpg)
+![logo](https://telegra.ph/file/11a9e10a4ba0a125eab7a.jpg)
 
 <img src="https://readme-typing-svg.herokuapp.com?color=F77247&width=980&lines=This+Project+Is+Inspired+On+The+Hard+Work+By+TheGodFather+Network%E2%9D%A4%EF%B8%8F">
 </p>
@@ -26,7 +26,7 @@
 ## 𝗗𝗲𝗽𝗹𝗼𝘆 𝗼𝗻 𝗛𝗲𝗿𝗼𝗸𝘂
 Get the [Necessary Variables](#Necessary-Variables) and then click the button below!  
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Godfatherakkii/TGN-MUSIC)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Harsh-un/UN-MUSIC2)
 
 ## 𝗗𝗲𝗽𝗹𝗼𝘆 𝗼𝗻 𝗩𝗣𝗦
 - Get your [Necessary Variables](https://github.com/Godfatherakkii/TGN-MUSIC/blob/master/.env)
@@ -58,8 +58,8 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 # Credit
   - [𝗦𝗮𝗺𝗲𝗲𝗿](https://github.com/notreallysrk)
 
-• This project is TheGodFather.
+• This project is UNBOT.
 
-• TgnMusic is Free Software: You can use, study share and improve it at your will. Specifically you can redistribute and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+• UN Music is Free Software: You can use, study share and improve it at your will. Specifically you can redistribute and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-Made with ♥️ by [TeamTGN](https://github.com/Godfatherakkii)
+Made with ♥️ by [TeamUN](https://github.com/Harsh-un)
