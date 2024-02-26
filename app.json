@@ -1,7 +1,7 @@
 {
-    "name": "TGN MUSIC",
+    "name": "UN MUSIC",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/b5c8b5da501bb64508b10.jpg",
+    "logo": "https://telegra.ph/file/11a9e10a4ba0a125eab7a.jpg",
     "keywords": [
     "python3",
     "telegram",
