@@ -1,5 +1,5 @@
-from TGNMusic import app
-from TGNMusic.utils.database import get_cmode
+from UNMusic import app
+from UNMusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
