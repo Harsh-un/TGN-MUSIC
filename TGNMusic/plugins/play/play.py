@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from TGNMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from TGNMusic.core.call import TGN
-from TGNMusic.utils import seconds_to_min, time_to_seconds
-from TGNMusic.utils.channelplay import get_channeplayCB
-from TGNMusic.utils.decorators.language import languageCB
-from TGNMusic.utils.decorators.play import PlayWrapper
-from TGNMusic.utils.formatters import formats
-from TGNMusic.utils.inline import (
+from UNMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from UNMusic.core.call import TGN
+from UNMusic.utils import seconds_to_min, time_to_seconds
+from UNMusic.utils.channelplay import get_channeplayCB
+from UNMusic.utils.decorators.language import languageCB
+from UNMusic.utils.decorators.play import PlayWrapper
+from UNMusic.utils.formatters import formats
+from UNMusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from TGNMusic.utils.logger import play_logs
-from TGNMusic.utils.stream.stream import stream
+from UNMusic.utils.logger import play_logs
+from UNMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
