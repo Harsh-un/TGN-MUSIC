@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from TGNMusic import YouTube, app
-from TGNMusic.utils.channelplay import get_channeplayCB
-from TGNMusic.utils.decorators.language import languageCB
-from TGNMusic.utils.stream.stream import stream
+from UNMusic import YouTube, app
+from UNMusic.utils.channelplay import get_channeplayCB
+from UNMusic.utils.decorators.language import languageCB
+from UNMusic.utils.stream.stream import stream
 from config import BANNED_USERS
 
 
