@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 from unidecode import unidecode
 
-from TGNMusic import app
-from TGNMusic.misc import SUDOERS
-from TGNMusic.utils.database import (
+from UNMusic import app
+from UNMusic.misc import SUDOERS
+from UNMusic.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,
