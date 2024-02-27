@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from TGNMusic import LOGGER, app, userbot
-from TGNMusic.core.call import TGN
-from TGNMusic.misc import sudo
-from TGNMusic.plugins import ALL_MODULES
-from TGNMusic.utils.database import get_banned_users, get_gbanned
+from UNMusic import LOGGER, app, userbot
+from UNMusic.core.call import TGN
+from UNMusic.misc import sudo
+from UNMusic.plugins import ALL_MODULES
+from UNMusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -36,25 +36,25 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("TGNMusic.plugins" + all_module)
-    LOGGER("TGNMusic.plugins").info("Successfully Imported Modules...")
+    LOGGER("UNMusic.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await TGN.start()
     try:
-        await TGN.stream_call("https://graph.org/file/ec8a35dd5f1ef90947167.mp4")
+        await UN.stream_call("https://graph.org/file/ec8a35dd5f1ef90947167.mp4")
     except NoActiveGroupCall:
-        LOGGER("TGNMusic").error(
+        LOGGER("UNMusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
     except:
         pass
-    await TGN.decorators()
-    LOGGER("TGNMusic").info(
-        "TGN Music Bot Started Successfully"
+    await UN.decorators()
+    LOGGER("UNMusic").info(
+        "UN Music Bot Started Successfully"
     )
     await idle()
     await app.stop()
-    LOGGER("TGNMusic").info("Stopping TGN Music Bot...")
+    LOGGER("UNMusic").info("Stopping UN Music Bot...")
 
 
 if __name__ == "__main__":
