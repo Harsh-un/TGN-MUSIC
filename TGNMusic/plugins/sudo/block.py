@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TGNMusic import app
-from TGNMusic.misc import SUDOERS
-from TGNMusic.utils.database import add_gban_user, remove_gban_user
-from TGNMusic.utils.decorators.language import language
-from TGNMusic.utils.extraction import extract_user
+from UNMusic import app
+from UNMusic.misc import SUDOERS
+from UNMusic.utils.database import add_gban_user, remove_gban_user
+from UNMusic.utils.decorators.language import language
+from UNMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
