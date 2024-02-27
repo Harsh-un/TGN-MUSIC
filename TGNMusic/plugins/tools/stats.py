@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from TGNMusic import app
-from TGNMusic.core.userbot import assistants
-from TGNMusic.misc import SUDOERS, mongodb
-from TGNMusic.plugins import ALL_MODULES
-from TGNMusic.utils.database import get_served_chats, get_served_users, get_sudoers
-from TGNMusic.utils.decorators.language import language, languageCB
-from TGNMusic.utils.inline.stats import back_stats_buttons, stats_buttons
+from UNMusic import app
+from UNMusic.core.userbot import assistants
+from UNMusic.misc import SUDOERS, mongodb
+from UNMusic.plugins import ALL_MODULES
+from UNMusic.utils.database import get_served_chats, get_served_users, get_sudoers
+from UNMusic.utils.decorators.language import language, languageCB
+from UNMusic.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 @app.on_message(filters.command(["stats", "gstats"]) & filters.group & ~BANNED_USERS & SUDOERS)
