@@ -8,8 +8,8 @@ from pyrogram.types import (
     Message,
 )
 
-from TGNMusic import app
-from TGNMusic.utils.database import (
+from UNMusic import app
+from UNMusic.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -25,9 +25,9 @@ from TGNMusic.utils.database import (
     skip_off,
     skip_on,
 )
-from TGNMusic.utils.decorators.admins import ActualAdminCB
-from TGNMusic.utils.decorators.language import language, languageCB
-from TGNMusic.utils.inline.settings import (
+from UNMusic.utils.decorators.admins import ActualAdminCB
+from UNMusic.utils.decorators.language import language, languageCB
+from UNMusic.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
