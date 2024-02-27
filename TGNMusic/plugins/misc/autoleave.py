@@ -2,9 +2,9 @@ import asyncio
 from datetime import datetime
 
 import config
-from TGNMusic import app
-from TGNMusic.core.call import TGN, autoend
-from TGNMusic.utils.database import (get_client, is_active_chat,
+from UNMusic import app
+from UNMusic.core.call import TGN, autoend
+from UNMusic.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
 
