@@ -1,8 +1,8 @@
 from strings import get_string
 
-from TGNMusic import app
-from TGNMusic.misc import SUDOERS
-from TGNMusic.utils.database import get_lang, is_maintenance
+from UNMusic import app
+from UNMusic.misc import SUDOERS
+from UNMusic.utils.database import get_lang, is_maintenance
 
 
 def language(mystic):
