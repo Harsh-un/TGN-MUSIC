@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from TGNMusic.core.mongo import mongodb
+from UNMusic.core.mongo import mongodb
 
 from .logging import LOGGER
 
