@@ -7,7 +7,7 @@ from youtubesearchpython.__future__ import VideosSearch
 
 import config
 from UNMusic import app
-from USNMusic.misc import _boot_
+from UNMusic.misc import _boot_
 from UNMusic.plugins.sudo.sudoers import sudoers_list
 from UNMusic.utils.database import (
     add_served_chat,
