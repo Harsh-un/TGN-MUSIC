@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from TGNMusic import app
-from TGNMusic.utils.database import get_lang, set_lang
-from TGNMusic.utils.decorators import ActualAdminCB, language, languageCB
+from UNMusic import app
+from UNMusic.utils.database import get_lang, set_lang
+from UNMusic.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 
