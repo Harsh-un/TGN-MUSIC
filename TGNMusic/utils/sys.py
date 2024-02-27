@@ -2,8 +2,8 @@ import time
 
 import psutil
 
-from TGNMusic.misc import _boot_
-from TGNMusic.utils.formatters import get_readable_time
+from UNMusic.misc import _boot_
+from UNMusic.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():
