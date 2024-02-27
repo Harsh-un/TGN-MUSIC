@@ -1,7 +1,7 @@
 import asyncio
 
-from TGNMusic.misc import db
-from TGNMusic.utils.database import get_active_chats, is_music_playing
+from UNMusic.misc import db
+from UNMusic.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():
