@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from TGNMusic import Carbon, YouTube, app
-from TGNMusic.core.call import TGN
-from TGNMusic.misc import db
-from TGNMusic.utils.database import add_active_video_chat, is_active_chat
-from TGNMusic.utils.exceptions import AssistantErr
-from TGNMusic.utils.inline import aq_markup, close_markup, stream_markup
-from TGNMusic.utils.pastebin import TGNBin
-from TGNMusic.utils.stream.queue import put_queue, put_queue_index
-from TGNMusic.utils.thumbnails import get_thumb
+from UNMusic import Carbon, YouTube, app
+from UNMusic.core.call import TGN
+from UNMusic.misc import db
+from UNMusic.utils.database import add_active_video_chat, is_active_chat
+from UNMusic.utils.exceptions import AssistantErr
+from UNMusic.utils.inline import aq_markup, close_markup, stream_markup
+from UNMusic.utils.pastebin import TGNBin
+from UNMusic.utils.stream.queue import put_queue, put_queue_index
+from UNMusic.utils.thumbnails import get_thumb
 
 
 async def stream(
@@ -32,7 +32,7 @@ async def stream(
     if not result:
         return
     if forceplay:
-        await TGN.force_stop_stream(chat_id)
+        await UN.force_stop_stream(chat_id)
     if streamtype == "playlist":
         msg = f"{_['play_19']}\n\n"
         count = 0
@@ -79,7 +79,7 @@ async def stream(
                     )
                 except:
                     raise AssistantErr(_["play_14"])
-                await TGN.join_call(
+                await UN.join_call(
                     chat_id,
                     original_chat_id,
                     file_path,
@@ -277,7 +277,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await TGN.join_call(chat_id, original_chat_id, file_path, video=status)
+            await UN.join_call(chat_id, original_chat_id, file_path, video=status)
             await put_queue(
                 chat_id,
                 original_chat_id,
@@ -333,7 +333,7 @@ async def stream(
             n, file_path = await YouTube.video(link)
             if n == 0:
                 raise AssistantErr(_["str_3"])
-            await TGN.join_call(
+            await UN.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,
