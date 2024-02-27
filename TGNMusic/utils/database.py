@@ -1,8 +1,8 @@
 import random
 from typing import Dict, List, Union
 
-from TGNMusic import userbot
-from TGNMusic.core.mongo import mongodb
+from UNMusic import userbot
+from UNMusic.core.mongo import mongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
