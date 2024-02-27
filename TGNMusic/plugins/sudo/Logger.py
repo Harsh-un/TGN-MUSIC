@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from TGNMusic import app
-from TGNMusic.misc import SUDOERS
-from TGNMusic.utils.database import add_off, add_on
-from TGNMusic.utils.decorators.language import language
+from UNMusic import app
+from UNMusic.misc import SUDOERS
+from UNMusic.utils.database import add_off, add_on
+from UNMusic.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)
