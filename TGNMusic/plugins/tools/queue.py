@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from TGNMusic import app
-from TGNMusic.misc import db
-from TGNMusic.utils import TGNBin, get_channeplayCB, seconds_to_min
-from TGNMusic.utils.database import get_cmode, is_active_chat, is_music_playing
-from TGNMusic.utils.decorators.language import language, languageCB
-from TGNMusic.utils.inline import queue_back_markup, queue_markup
+from UNMusic import app
+from UNMusic.misc import db
+from UNMusic.utils import TGNBin, get_channeplayCB, seconds_to_min
+from UNMusic.utils.database import get_cmode, is_active_chat, is_music_playing
+from UNMusic.utils.decorators.language import language, languageCB
+from UNMusic.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}
