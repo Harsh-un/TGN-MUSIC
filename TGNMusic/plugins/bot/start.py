@@ -6,10 +6,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from TGNMusic import app
-from TGNMusic.misc import _boot_
-from TGNMusic.plugins.sudo.sudoers import sudoers_list
-from TGNMusic.utils.database import (
+from UNMusic import app
+from USNMusic.misc import _boot_
+from UNMusic.plugins.sudo.sudoers import sudoers_list
+from UNMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
