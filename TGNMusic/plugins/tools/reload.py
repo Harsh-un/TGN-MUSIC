@@ -5,12 +5,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from TGNMusic import app
-from TGNMusic.core.call import TGN
-from TGNMusic.misc import db
-from TGNMusic.utils.database import get_assistant, get_authuser_names, get_cmode
-from TGNMusic.utils.decorators import ActualAdminCB, AdminActual, language
-from TGNMusic.utils.formatters import alpha_to_int, get_readable_time
+from UNMusic import app
+from UNMusic.core.call import TGN
+from UNMusic.misc import db
+from UNMusic.utils.database import get_assistant, get_authuser_names, get_cmode
+from UNMusic.utils.decorators import ActualAdminCB, AdminActual, language
+from UNMusic.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 rel = {}
