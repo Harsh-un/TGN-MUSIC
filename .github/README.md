@@ -1,13 +1,8 @@
-[![](https://img.shields.io/badge/TgnMusic-V2-darkgreen)](#)
-[![Stars](https://img.shields.io/github/stars/Godfatherakkii/TGN-MUSIC?style=flat-square&color=yellow)](https://github.com/Godfatherakkii/TGN-MUSIC/stargazers)
-[![Forks](https://img.shields.io/github/forks/Godfatherakkii/TGN-MUSIC?style=flat-square&color=orange)](https://github.com/Godfatherakkii/TGN-MUSIC/fork)
 
 
-[![Telegram](https://img.shields.io/badge/-Support-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)](https://t.me/TheGodfatherChat)
-[![Telegram](https://img.shields.io/badge/-UpDate-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)](https://t.me/IndianBotUpDates)
+[![Telegram](https://img.shields.io/badge/-Support-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)](https://t.me/un_w0rld)
+[![Telegram](https://img.shields.io/badge/-UpDate-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)](https://t.me/un_bots_info)
 
-
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 <h1 align="center">
   <b>𝙐𝙉 𝙈𝙐𝙎𝙄𝘾</b>
@@ -56,7 +51,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 ━━━━━━━━━━━━━━━━━━━━
 
 # Credit
-  - [𝗦𝗮𝗺𝗲𝗲𝗿](https://github.com/notreallysrk)
+  - [𝗛𝗔𝗥𝗦𝗛𝗨](https://github.com/Harsh-un)
 
 • This project is UNBOT.
 
