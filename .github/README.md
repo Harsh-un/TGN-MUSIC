@@ -15,7 +15,7 @@
 
 ![logo](https://telegra.ph/file/11a9e10a4ba0a125eab7a.jpg)
 
-<img src="https://readme-typing-svg.herokuapp.com?color=F77247&width=980&lines=This+Project+Is+Inspired+On+The+Hard+Work+By+TheGodFather+Network%E2%9D%A4%EF%B8%8F">
+<img src="https://readme-typing-svg.herokuapp.com?color=F77247&width=980&lines=This+Project+Is+Inspired+On+The+Hard+Work+By+Un+Network%E2%9D%A4%EF%B8%8F">
 </p>
 
 ## 𝗗𝗲𝗽𝗹𝗼𝘆 𝗼𝗻 𝗛𝗲𝗿𝗼𝗸𝘂
